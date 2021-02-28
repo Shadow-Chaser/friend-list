@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    background-color: aqua;
+}
+
+.header h1{
+    margin-right: 820px;
+    margin-left: 20px;
+}
+
+.header a{
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 35px;
+}
+
