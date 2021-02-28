@@ -1,9 +1,17 @@
 import React from 'react';
 import './User.css'
-const User = () => {
+const User = (props) => {
+
     return (
         <div className='user'>
-            <h1>HHHH</h1>
+            
+            <img src={props.user.image} alt=""/>
+            <div>
+                <h3>Name : {props.user.name}</h3>
+                <h5>Email : {props.user.email}</h5>
+                <h5>Salary : $ {props.user.salary}</h5>
+            </div>
+
         </div>
     );
 };

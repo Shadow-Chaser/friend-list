@@ -1,6 +1,9 @@
 .user{
     border-right: 2px solid gray;
     border-bottom: 2px solid gray;
+    display: flex;
 
-    width: 75%;
+}
+.user img{
+    padding: 10px;
 }

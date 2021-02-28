@@ -41,3 +41,7 @@
 .main-container{
   display: flex;
 }
+
+.user-area{
+  width:75%;
+}
